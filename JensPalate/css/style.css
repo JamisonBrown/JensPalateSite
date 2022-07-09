@@ -1,0 +1,94 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+     font-size: 62.5%; /*10px*/
+     /*background: #EEE2DC;*/
+}
+
+/* border sections for reference */
+header, .socialMediaPosts, .thisIsJen{
+     border: 2px solid black;
+}
+
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* center the h1 */
+h1{
+     text-align: center;
+}
+
+/* remove bullets from ul */
+ul{
+     list-style: none;
+}
+
+/* position list items next to each other */
+li{
+     width: 20%;
+     height: 50px;
+     float: left;
+}
+
+/* size and position the socialMediaPosts sections */
+.socialMediaPosts{
+     height: 750px;
+     width: 60%;
+     float: left;
+     margin: 0 0 2% 2%;
+}
+
+/* size and position the about section */
+.thisIsJen{
+     height:750px;
+     width:33.3333%;
+     float:right;
+     margin: 0 2% 2% 0;
+}
+
+/* set height and border the sections for reference*/
+.recentPosts{
+     height: 250px;
+     border: 2px solid black;
+     
+     
+}
+
+.recentPosts.post1{
+     background: url("../jpegs/chickenAndPasta.jpg");
+
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
