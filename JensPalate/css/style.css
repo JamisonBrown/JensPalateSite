@@ -27,9 +27,7 @@ html{
 }
 
 /* border sections for reference */
-header, .socialMediaPosts, .thisIsJen{
-     border: 2px solid black;
-}
+
 
 
 
@@ -59,30 +57,53 @@ li{
 /* size and position the socialMediaPosts sections */
 .socialMediaPosts{
      height: 750px;
-     width: 60%;
+     width:33.333%;
      float: left;
-     margin: 0 0 2% 2%;
+     margin: 0 0 2% 12%; /*pulls the entire section away from the left & bottom sides of the screen*/
 }
 
-/* size and position the about section */
+/* size and position the about section containing aboutJen */
 .thisIsJen{
      height:750px;
      width:33.3333%;
      float:right;
-     margin: 0 2% 2% 0;
+     margin: 0 10% 2% 0;
 }
 
 /* set height and border the sections for reference*/
 .recentPosts{
      height: 250px;
-     border: 2px solid black;
      
      
 }
 
+/* add background image to the 1st instagram post 
+and position it to fit inside the section*/
 .recentPosts.post1{
-     background: url("../jpegs/chickenAndPasta.jpg");
+     background: no-repeat url("../jpegs/chickenAndPasta.jpg");
+     background-size: 100%;
+     background-position: 0% 79%;
 
+}
+
+/* add a background to the second post and position it to fit
+inside the section */
+.recentPosts.post2{
+     margin-top: 5%;
+     margin-bottom: 5%;
+     background: url("../jpegs/pokeBowl.jpeg");
+     background-size: 100%;
+     background-position: 0% 50%;
+}
+
+.recentPosts.post3{
+     background: url("../jpegs/shrimpAndPasta.jpeg");
+     background-size: 100%;
+     background-position: 0% 40%;
+}
+
+.recipeInfo{
+     margin: 35% 0 0 0;
 }
 
 
