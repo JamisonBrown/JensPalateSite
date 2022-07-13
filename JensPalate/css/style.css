@@ -23,7 +23,8 @@
 /*******************************************/
 html{
      font-size: 62.5%; /*10px*/
-     /*background: #EEE2DC;*/
+     background: #EEE2DC;
+     font-family: Kurale;
 }
 
 /* border sections for reference */
@@ -36,80 +37,50 @@ html{
 /******************************************
 /* LAYOUT
 /*******************************************/
+/* make the header span the width of the screen and have a height 300px */
+header{
+     height: 200px;
+     background: #EDC7B7;
+}
 
-/* center the h1 */
-h1{
+/* Center the pageHeading and Make its height half the size of its container*/
+.pageHeading > h1{
      text-align: center;
+     font-size: 6.5rem;
 }
 
-/* remove bullets from ul */
-ul{
-     list-style: none;
-}
-
-/* position list items next to each other */
-li{
+/* Put the list of nav elements next to each other across */
+.navMenu li{
+     height: 50%;
      width: 20%;
-     height: 50px;
+     list-style: none; /* remove the dots from the list elements */
      float: left;
+     text-align: center;
+     font-size: 2.2rem;
 }
 
-/* size and position the socialMediaPosts sections */
+/*set the size for the instagramPosts section  */
 .socialMediaPosts{
-     height: 750px;
-     width:33.333%;
+     height: 600px;
+     width: 33%;
      float: left;
-     margin: 0 0 2% 12%; /*pulls the entire section away from the left & bottom sides of the screen*/
+     background: #BAB2B5;
+     margin: 2% 0 0 2%;
 }
 
-/* size and position the about section containing aboutJen */
-.thisIsJen{
-     height:750px;
-     width:33.3333%;
-     float:right;
-     margin: 0 10% 2% 0;
+/* set the size for the aboutJen section */
+.aboutJen{
+     height: 400px;
+     width: 50%;
+     float:left;
+     background: #AC3B61;
+     margin: 2% 0 0 10%;
 }
-
-/* set height and border the sections for reference*/
-.recentPosts{
-     height: 250px;
-     
-     
-}
-
-/* add background image to the 1st instagram post 
-and position it to fit inside the section*/
-.recentPosts.post1{
-     background: no-repeat url("../jpegs/chickenAndPasta.jpg");
-     background-size: 100%;
-     background-position: 0% 79%;
-
-}
-
-/* add a background to the second post and position it to fit
-inside the section */
-.recentPosts.post2{
-     margin-top: 5%;
-     margin-bottom: 5%;
-     background: url("../jpegs/pokeBowl.jpeg");
-     background-size: 100%;
-     background-position: 0% 50%;
-}
-
-.recentPosts.post3{
-     background: url("../jpegs/shrimpAndPasta.jpeg");
-     background-size: 100%;
-     background-position: 0% 40%;
-}
-
-.recipeInfo{
-     margin: 35% 0 0 0;
-}
-
-
 
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/*Colors and font sizes for text and Backgrounds  */
