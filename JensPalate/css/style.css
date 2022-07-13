@@ -61,20 +61,31 @@ header{
 
 /*set the size for the instagramPosts section  */
 .socialMediaPosts{
-     height: 600px;
-     width: 33%;
+     height: 800px;
+     width: 40%;
      float: left;
      background: #BAB2B5;
-     margin: 2% 0 0 2%;
+     margin: 2% 0 0 5%;
+     padding: 2% 0 0 2%;
 }
 
 /* set the size for the aboutJen section */
 .aboutJen{
      height: 400px;
-     width: 50%;
+     width: 30%;
      float:left;
      background: #AC3B61;
      margin: 2% 0 0 10%;
+     padding: 2% 4% 0 4%;
+}
+
+/* size the individual posts for the social media section */
+.socialMediaPosts .recentPosts{
+     width: 80%;
+     height: 30%;
+     padding: 0 1%;
+     margin: 0 0 0 8%;
+     background: #EEE2DC;
 }
 
 
